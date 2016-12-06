@@ -18,7 +18,7 @@
 import logging
 import Queue
 from threading import Thread
-from telegram import Bot
+import telegram
 from telegram.ext import Dispatcher, MessageHandler, Updater
 
 TOKEN = '292106014:AAEdLmqqhYHhDncqidNtFSNx9Mj7Fil50_8'
