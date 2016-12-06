@@ -16,7 +16,7 @@
 # along with python-telegram-bot-openshift.  If not, see <http://www.gnu.org/licenses/>.
 
 import logging
-from queue import Queue
+import Queue
 from threading import Thread
 from telegram import Bot
 from telegram.ext import Dispatcher, MessageHandler, Updater
